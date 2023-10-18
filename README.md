@@ -4,7 +4,7 @@ XO.AR = XO Game + Augmented Reality
 XO.AR is a desktop AR tic-tac-toe game. It lets you play against an AI or another network player with the help by augmenting opponent player moves onto your play surface. 
 It was developed as a college project that combines concepts from the fields of AR, Computer Networks, AI and Software Development (including multi-threading). 
 
-In this project, we have relied on Digital Image Processing (DIP) techniques, implemented using OpenCV, for the realization of the AR features in the game.
+In this project, I have relied on Digital Image Processing (DIP) techniques, implemented using OpenCV, for the realization of the AR features in the game.
 Networking between players has been implemented using Socket Programming, allowing players to connect with each other following the TCP protocol. In addition, we have also integrated AI into the
 application which enables single players to play against a computer AI. Implementation of the AI for the Tic-Tac-Toe is done using the Minimax Algorithm.
 
@@ -48,7 +48,7 @@ Detailed demonstration videos of our game can be found in the below links:
 ## Challenges
 Our application deals with real-time video processing, augmented reality and computer
 networking, all of which present different challenges on implementation. Some of the
-notable challenges that we faced are:
+notable challenges that I faced are:
 * Achieving low latency processing of the video was a difficult task, often causing the
 application to crash. A solution to this is to set an appropriate time-delay (frame
 rate) between the consecutive frame captures.
